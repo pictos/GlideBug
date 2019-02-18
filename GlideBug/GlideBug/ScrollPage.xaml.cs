@@ -15,11 +15,17 @@ namespace GlideBug
         public ScrollPage()
         {
             InitializeComponent();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
             indicator.IsEnabled = false;
             lbl.Text = $"Height: {bg.Height} Width: {bg.Width}";
             buglbl.Text = $"Height: {bugImage.Height} Width: {bugImage.Width}";
-        }
 
+        }
         void Button_Clicked(object sender, EventArgs e)
         {
             if (!isBusy)

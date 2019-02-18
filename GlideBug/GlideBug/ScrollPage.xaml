@@ -5,7 +5,7 @@
              NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <StackLayout Spacing="10">
-            <Button Text="Show Image with Bug"
+            <Button Text="Show Image with Bug, press 2 times"
                     Clicked="Button_Clicked"/>
             
             <ActivityIndicator x:Name="indicator"/>
