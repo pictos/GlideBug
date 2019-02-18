@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlideBug.Android", "GlideBug\GlideBug.Android\GlideBug.Android.csproj", "{3DCF3162-E243-4290-99E4-1AC0DC2B3024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlideBug", "GlideBug\GlideBug\GlideBug.csproj", "{A9704750-3A3E-483A-97BC-BC6807DAC98F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCF3162-E243-4290-99E4-1AC0DC2B3024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCF3162-E243-4290-99E4-1AC0DC2B3024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCF3162-E243-4290-99E4-1AC0DC2B3024}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3DCF3162-E243-4290-99E4-1AC0DC2B3024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCF3162-E243-4290-99E4-1AC0DC2B3024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCF3162-E243-4290-99E4-1AC0DC2B3024}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A9704750-3A3E-483A-97BC-BC6807DAC98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9704750-3A3E-483A-97BC-BC6807DAC98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9704750-3A3E-483A-97BC-BC6807DAC98F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A9704750-3A3E-483A-97BC-BC6807DAC98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9704750-3A3E-483A-97BC-BC6807DAC98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9704750-3A3E-483A-97BC-BC6807DAC98F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A099B9A-5129-48DD-98E1-94411A8E7024}
+	EndGlobalSection
+EndGlobal
