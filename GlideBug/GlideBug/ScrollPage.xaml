@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GlideBug.ScrollPage"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <StackLayout Spacing="10">
+            <Button Text="Show Image with Bug"
+                    Clicked="Button_Clicked"/>
+            
+            <ActivityIndicator x:Name="indicator"/>
+            <!-- Place new controls here -->
+            <Label Text="Image without Horizontal options" 
+                   Style="{StaticResource LTitle}"/>
+
+            <Image Source="Brumadinho.png"
+                   x:Name="bg"/>
+
+            <Label x:Name="lbl"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label Text="Image with Horizontal options"
+                   Style="{StaticResource LTitle}"/>
+
+            <Image Source="Brumadinho.png"
+                   Aspect="AspectFit"
+                   x:Name="bugImage"
+                   HorizontalOptions="Center"/>
+            
+            <Label x:Name="buglbl"
+                   HorizontalTextAlignment="Center"/>
+ 
+           
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

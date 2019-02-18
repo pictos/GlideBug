@@ -19,6 +19,7 @@ namespace GlideBug.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Android.Glide.Forms.Init();
             LoadApplication(new App());
         }
     }
